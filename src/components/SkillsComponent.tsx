@@ -35,7 +35,7 @@ const SkillsComponent = () => {
     return( 
         <>
         <div className='container lg:container lg:mx-auto py-8 text-3xl pt-20 ssm:px-28 text-white'>
-            <h1 className="text-white text-shadow-lg text-shadow-emerald-950 font-bold text-4xl'">Skills</h1>
+            <h1 className="text-white text-shadow-lg text-shadow-emerald-950 font-bold text-4xl'"> Skills <p className="text-red-600 text-sm">Click para ver detalle</p></h1>
             </div>
         <div className="container lg:container lg:mx-auto py-1 ssm:px-5">
             <div className="grid md:grid-cols-12 ssm:grid-cols-6 md:gap-4 ssm:gap-3 ">

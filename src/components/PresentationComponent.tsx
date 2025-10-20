@@ -14,14 +14,15 @@ const PresentationComponent = () =>{
         <>
             <div className="container lg:container lg:mx-auto py-8">
                 <div className="">
-                    <div className='pt-35 pl-130 sm:pl-70 md:pl-100 ssm:pl-25 ssm:pt-18'>
-                        <img className='object-center sm:object-center ssm:object-center md:object-cover 
-                        ssm:object-cover drop-shadow-xl/50 sm:drop-shadow-xl/50 ssm:drop-shadow-xl/50
+                    <div className='pt-35 sm:pl-70 md:pl-170 ssm:pl-25 ssm:pt-18'>
+                        <img className='md:object-center sm:object-center ssm:object-center md:object-cover sm:object-cover
+                        ssm:object-cover md:drop-shadow-xl/50 sm:drop-shadow-xl/50 ssm:drop-shadow-xl/50
                          drop-shadow-amber-100 sm:drop-shadow-amber-100 ssm:drop-shadow-amber-100 
-                        rounded-full md:rounded-full ssm:rounded-full w-96 h-96 md:w-96 md:h-96 sm:w-32 sm:h-32 ssm:h-32 ssm:w-32' 
+                        rounded-full md:rounded-full sm:rounded-full ssm:rounded-full 
+                        md:w-64 md:h-64 sm:w-64 sm:h-64 ssm:h-64 ssm:w-64' 
                         src={photo}></img>
                     </div>
-                    <div className='flex justify-center md:pr-50 sm:px-15 pt-10'>
+                    <div className='flex justify-center md:pr-0 sm:px-15 pt-10'>
                         <span className='flex justify-center sm:pl-5 ssm:pl-3'>
                             <a href='https://www.facebook.com/juch10/' target='_blank'><i className="devicon-facebook-plain text-white  hover:text-indigo-500 text-5xl ssm:text-2xl"></i></a></span>
                         <span className='flex justify-center sm:pl-5 ssm:pl-3'>
@@ -38,10 +39,10 @@ const PresentationComponent = () =>{
                         <div className="px-18 py-8 md:px-5 sm:3 ssm:px-5 ssm:3">
                             <h1 className="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white md:text-2xl ssm:text-7xl lg:text-6xl"> Jose Luis Plata
                             </h1>
-                            <h2 className="mb-4 text-xl font-extrabold ssm:text-4xl text-yellow-700 md:text-2xl lg:text-2xl">  FullStack Developer
+                            <h2 className="mb-4 text-3xl font-extrabold ssm:text-4xl text-emerald-300 md:text-3xl lg:text-3xl">  FullStack Developer - Soluciones, desarrollos y aplicaciones
                             </h2>
                         </div>
-                        <div className="px-15 pb-20 md:px-5 sm:3 text-amber-200 font-extrabold text-justify text-base">
+                        <div className="px-15 pb-20 md:px-5 sm:3  text-amber-200 font-extrabold text-justify text-2xl">
                             <a> Apasionado a la tecnologia y en constante motivacion para enfocar la atencion al detalle
                                 en la mejora de procesos, flujos de operacion y rendimiento. 
                             </a>                            
