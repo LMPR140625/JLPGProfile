@@ -1,6 +1,6 @@
 'use client'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMobileScreen, faComputer, faGlobe, faMobile  } from '@fortawesome/free-solid-svg-icons'
+import { faComputer, faGlobe, faMobile  } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { Resend } from 'resend'
 
@@ -8,7 +8,7 @@ import { Resend } from 'resend'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { Form } from 'react-router-dom'
+
 library.add(fas, far, fab)
 
 const ContactComponent = () =>{
@@ -24,11 +24,11 @@ const ContactComponent = () =>{
             from: 'Acme <onboarding@resend.dev>',
             to: 'jlpg.lrm.lmpr@gmail.com',
             subject: `Nuevo correo de {nombre} desde la página web`,
-            html: '<p> {mensaje} <strong>first email</strong>!</p>'
+            html: '<p> wjwmplo <strong>first email</strong>!</p>'
             })
             .then(response => {
                 console.log(response);
-                console.log("Enviado!!");
+                console.log("Enviado!!",data);
             });
             
         } catch (error) {
