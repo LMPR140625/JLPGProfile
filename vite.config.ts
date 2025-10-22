@@ -5,16 +5,15 @@ import tailwindcss from '@tailwindcss/vite'; // Import the plugin
 // https://vite.dev/config/
 export default defineConfig({
   base: "/",
-  plugins: [react(),tailwindcss(), ]/* ,
-  preview: {
-  port: 3000,
-  strictPort: true,
-  },
+  plugins: [react(),tailwindcss(), ] ,
   server: {
-  port: 3000,
-  strictPort: true,
-  host: true,
-  origin: "http://0.0.0.0:3000",
- }, */
+    proxy:{
+      '/api':{
+        target:"https://api.resend.com/emails",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      },      
+    }
+ }
 })
 

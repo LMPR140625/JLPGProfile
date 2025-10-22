@@ -14,12 +14,12 @@ const PresentationComponent = () =>{
         <>
             <div className="container lg:container lg:mx-auto py-8">
                 <div className="">
-                    <div className='pt-35 sm:pl-70 md:pl-170 ssm:pl-25 ssm:pt-18'>
+                    <div className='pt-35 sm:pl-70 md:pl-75 ssm:pl-25 ssm:pt-18 lg:pl-105 xl:pl-135'>
                         <img className='md:object-center sm:object-center ssm:object-center md:object-cover sm:object-cover
                         ssm:object-cover md:drop-shadow-xl/50 sm:drop-shadow-xl/50 ssm:drop-shadow-xl/50
                          drop-shadow-amber-100 sm:drop-shadow-amber-100 ssm:drop-shadow-amber-100 
                         rounded-full md:rounded-full sm:rounded-full ssm:rounded-full 
-                        md:w-64 md:h-64 sm:w-64 sm:h-64 ssm:h-64 ssm:w-64' 
+                        md:w-64 md:h-64 sm:w-64 sm:h-64 ssm:h-32 ssm:w-32' 
                         src={photo}></img>
                     </div>
                     <div className='flex justify-center md:pr-0 sm:px-15 pt-10'>

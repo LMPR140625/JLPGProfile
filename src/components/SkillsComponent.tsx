@@ -45,10 +45,10 @@ const SkillsComponent = () => {
                                         isFlippedBack1 ? '[transform:rotateY(180deg)]' : ''
                                         }`} onClick={() => setIsFlippedBack1(!isFlippedBack1)}>    
                             {/* Cara Frontal */}
-                            {<div  className="absolute md:w-full ssm:w-full md:h-full ssm:h-full bg-cyan-900 text-amber-200 
+                            {<div  className="absolute md:w-full ssm:w-full md:h-full ssm:h-full bg-cyan-900 text-amber-200 hover:text-indigo-800
                              overflow-hidden  shadow-amber-100 rounded-lg shadow-md md:flex ssm:flex items-center justify-center
                               backface-hidden">
-                                        <i className="devicon-csharp-plain-wordmark md:text-8xl ssm:text-4xl"></i>
+                                        <i className="devicon-csharp-plain-wordmark md:text-8xl ssm:text-7xl"></i>
                             </div>}
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -67,8 +67,8 @@ const SkillsComponent = () => {
                                         isFlippedBack2 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-900 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-dotnetcore-plain md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-900 hover:text-indigo-800 text-amber-200 hover:text-cyan-900 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-dotnetcore-plain md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -88,8 +88,8 @@ const SkillsComponent = () => {
                                         isFlippedBack3 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-900 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-visualbasic-plain md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-900 text-amber-200 hover:text-indigo-800 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-visualbasic-plain md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -108,8 +108,8 @@ const SkillsComponent = () => {
                                         isFlippedBack4 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-900 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-nodejs-plain-wordmark md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-900 text-amber-200 hover:text-green-400 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-nodejs-plain-wordmark md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -133,8 +133,8 @@ const SkillsComponent = () => {
                                         isFlippedFront1 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-800 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-react-original-wordmark md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-800 text-amber-200 hover:text-blue-500 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-react-original-wordmark md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -153,8 +153,8 @@ const SkillsComponent = () => {
                                         isFlippedFront2 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-800 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-angularjs-plain-wordmark md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-800 text-amber-200 hover:text-red-900 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-angularjs-plain-wordmark md:text-8xl ssm:text-8xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -174,8 +174,8 @@ const SkillsComponent = () => {
                                         isFlippedFront3 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-800 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-javascript-plain md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-800 text-amber-200 hover:text-yellow-300 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-javascript-plain md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -194,8 +194,8 @@ const SkillsComponent = () => {
                                         isFlippedFront4 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-800 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-bootstrap-plain-wordmark md:text-8xl ssm:text-5xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-800 text-amber-200 hover:text-indigo-900 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-bootstrap-plain-wordmark md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -216,8 +216,8 @@ const SkillsComponent = () => {
                                         isFlippedBD1 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-700 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                <i className="devicon-microsoftsqlserver-plain-wordmark md:text-8xl ssm:text-4xl"></i> 
+                            <div className="absolute w-full h-full bg-cyan-700 text-amber-200 hover:text-red-900 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                <i className="devicon-microsoftsqlserver-plain-wordmark md:text-8xl ssm:text-7xl"></i> 
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -236,8 +236,8 @@ const SkillsComponent = () => {
                                         isFlippedBD2 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-700 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-oracle-original md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-700 text-amber-200 hover:text-red-900 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-oracle-original md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -257,8 +257,8 @@ const SkillsComponent = () => {
                                         isFlippedBD3 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-700 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-sqlite-plain-wordmark md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-700 text-amber-200 hover:text-cyan-900 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-sqlite-plain-wordmark md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -277,8 +277,8 @@ const SkillsComponent = () => {
                                         isFlippedBD4 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-700 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-mongodb-plain-wordmark md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-700 text-amber-200 hover:text-green-300 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-mongodb-plain-wordmark md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -302,8 +302,8 @@ const SkillsComponent = () => {
                                         isFlippedI1 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-600 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                <i className="devicon-docker-plain-wordmark md:text-8xl ssm:text-4xl"></i> 
+                            <div className="absolute w-full h-full bg-cyan-600 text-amber-200 hover:text-cyan-900 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                <i className="devicon-docker-plain-wordmark md:text-8xl ssm:text-7xl"></i> 
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -322,8 +322,8 @@ const SkillsComponent = () => {
                                         isFlippedI2 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-600 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-git-plain-wordmark md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-600 text-amber-200 hover:text-orange-900 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-git-plain-wordmark md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -343,8 +343,8 @@ const SkillsComponent = () => {
                                         isFlippedI3 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-600 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-azure-plain-wordmark md:text-8xl ssm:text-5xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-600 text-amber-200 hover:text-cyan-900 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-azure-plain-wordmark md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
                            {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
@@ -363,8 +363,8 @@ const SkillsComponent = () => {
                                         isFlippedI4 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-600 text-amber-200  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
-                                 <i className="devicon-tortoisegit-plain md:text-8xl ssm:text-4xl"></i>
+                            <div className="absolute w-full h-full bg-cyan-600 text-amber-200 hover:text-cyan-900  overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                                 <i className="devicon-tortoisegit-plain md:text-8xl ssm:text-7xl "></i>
                             </div>
                             {/* Cara Posterior */}
                             {<div className="absolute w-full h-full bg-teal-800 rounded-lg shadow-md flex items-center justify-center text-white transform rotate-y-180 backface-hidden">
