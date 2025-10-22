@@ -35,7 +35,7 @@ const ContactComponent = () =>{
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
     console.log("Se inicia la peticion con los valores: ",values);
  
-          const res = await fetch('/api', {
+           await fetch('/api', {
                             method: 'POST',
                             headers: {'Content-type':'application/json', 'Authorization': `Bearer ${import.meta.env.VITE_API_KEY_RESEND}`},
                             body: JSON.stringify({
@@ -46,7 +46,6 @@ const ContactComponent = () =>{
                             text:''
                             }) ,
                          });
-        console.log("res");
     SetDefaultValues();
   }   
 

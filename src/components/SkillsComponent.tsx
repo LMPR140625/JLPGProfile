@@ -67,7 +67,7 @@ const SkillsComponent = () => {
                                         isFlippedBack2 ? '[transform:rotateY(180deg)]' : '[transform:rotateY(0deg)]'
                                         }`}>
                             {/* Cara Frontal */}
-                            <div className="absolute w-full h-full bg-cyan-900 hover:text-indigo-800 text-amber-200 hover:text-cyan-900 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
+                            <div className="absolute w-full h-full bg-cyan-900 hover:text-indigo-800 text-amber-200 overflow-hidden  shadow-amber-100 rounded-lg shadow-md flex items-center justify-center backface-hidden">
                                  <i className="devicon-dotnetcore-plain md:text-8xl ssm:text-7xl"></i>
                             </div>
                             {/* Cara Posterior */}
