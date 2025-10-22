@@ -37,7 +37,7 @@ const ContactComponent = () =>{
  
           const res = await fetch('https://api.resend.com/emails', {
                             method: 'POST',
-                            headers: {'Content-type':'application/json', 'Authorization': `Bearer ${ import.meta.env.VITE_API_KEY_RESEND}`},
+                            headers: {'Content-type':'text/plain', 'Authorization': `Bearer ${ import.meta.env.VITE_API_KEY_RESEND}`},
                             body: JSON.stringify({
                             from: 'Acme <onboarding@resend.dev>',
                             to: 'jlpg.lrm.lmpr@gmail.com',
