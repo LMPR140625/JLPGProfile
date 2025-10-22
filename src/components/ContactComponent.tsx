@@ -35,7 +35,7 @@ const ContactComponent = () =>{
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
     console.log("Se inicia la peticion con los valores: ",values);
  
-          const res = await fetch('/api', {
+          const res = await fetch('https://joseluisplatagonzalezservices.com/api', {
                             method: 'POST',
                             headers: {'Content-type':'application/json', 'Authorization': `Bearer ${import.meta.env.VITE_API_KEY_RESEND}`},
                             body: JSON.stringify({

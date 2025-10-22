@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react(),tailwindcss(), ] ,
   server: {
     proxy:{
-      '/api':{
+      'https://joseluisplatagonzalezservices.com/api':{
         target:"https://api.resend.com/emails",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
