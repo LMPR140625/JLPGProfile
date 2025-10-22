@@ -35,7 +35,7 @@ const ContactComponent = () =>{
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
     console.log("Se inicia la peticion con los valores: ",values);
  
-           await fetch('/api', {
+          const res = await fetch('/api', {
                             method: 'POST',
                             headers: {'Content-type':'application/json', 'Authorization': `Bearer ${import.meta.env.VITE_API_KEY_RESEND}`},
                             body: JSON.stringify({
@@ -46,6 +46,7 @@ const ContactComponent = () =>{
                             text:''
                             }) ,
                          });
+        console.log("res",res);
     SetDefaultValues();
   }   
 
@@ -126,7 +127,7 @@ const ContactComponent = () =>{
             <div className="container lg:container lg:mx-auto pt-10">                       
                 <form onSubmit={handleSubmit(onSubmit)} className="transparent w-full h-full text-emerald-200 border-6 flex-col  hover:text-amber-500 ">
                     <div className='px-20 pt-17 flex justify-center'>
-                            <h1 className='text-emerald-200 md:text-6xl ssm:text-3xl font-alan-sans hover:text-amber-500'> Contáctame</h1>
+                            <h1 className='text-emerald-200 md:text-6xl ssm:text-l font-alan-sans hover:text-amber-500'> Contáctame</h1>
                     </div>
                     <div className='flex justify-center pb-2 px-20 pt-10'>
                         {/* Nombre */}
